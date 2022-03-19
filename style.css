@@ -1,0 +1,42 @@
+.main-container {
+    width: 800px;
+    margin: auto;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    margin: 100px 0 35px;
+    background-color: rgb(198, 201, 199);
+}
+
+.progress {
+    height: 100%;
+    background-color: blue;
+    animation-name: progress-anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+.run-button {
+    cursor: pointer;
+}
+
+.waiting-queue {
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes progress-anime {
+    0% {width: 0%;}
+    10% {width: 10%;}
+    20% {width: 20%;}
+    30% {width: 30%;}
+    40% {width: 40%;}
+    50% {width: 50%;}
+    60% {width: 60%;}
+    70% {width: 70%;}
+    80% {width: 80%;}
+    90% {width: 90%;}
+    100% {width: 100%;}
+}
